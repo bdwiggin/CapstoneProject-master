@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#E0E0E0">
+
+    <TextView
+        android:layout_width="293dp"
+        android:layout_height="96dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Back-Track"
+        android:id="@+id/loginlabel"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal|top"
+        style="bold" />
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editTextRFirstname"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp"
+        android:hint="Firstname"
+        android:layout_marginTop="85dp"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editTextRLastname"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="85dp"
+        android:layout_marginRight="10dp"
+        android:hint="Lastname"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:id="@+id/editTextEmail"
+        android:layout_gravity="left|top"
+        android:textColorHint="#000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editTextRAge"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="10dp"
+        android:hint="Age"
+        android:textColorHint="#000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="103dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editTextRHeight"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="10dp"
+        android:hint="Height (Ft)"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="67dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editTextRInches"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="130dp"
+        android:hint="Inches"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editTextRWeight"
+        android:layout_gravity="right|center"
+        android:hint="Weight (Lbs)"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editTextRUsername"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="10dp"
+        android:hint="Username"
+        android:layout_marginBottom="175dp"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editTextRPassword"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="10dp"
+        android:hint="Password"
+        android:layout_marginBottom="100dp"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Update Account"
+
+        android:background="#9a9a9a"
+        android:layout_gravity="bottom"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:onClick="userUpdate" />
+</FrameLayout>

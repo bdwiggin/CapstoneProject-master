@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0">
+
+//comment
+    <ImageButton
+        android:layout_width="339dp"
+        android:layout_height="339dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/loadinglogo" />
+
+    <ImageButton
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:id="@+id/thresholdImageButton"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/tapsymbol" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Update Information"
+        android:id="@+id/createAccountButton"
+        android:background="#9a9a9a"
+        android:layout_gravity="bottom"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textColor="#F00"
+        android:id="@+id/thresholdResetButton"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left|bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:onClick="thresholdHelp"
+        android:textColor="#00F"
+        android:layout_marginBottom="65dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/thresholdHelpButton2"
+        android:layout_gravity="right|bottom" />
+</FrameLayout>

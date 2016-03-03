@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teaminfinity.tabnavigation.AnatomicalChartsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="false"
+        android:background="#E0E0E0">
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="228dp"
+        android:layout_height="188dp"
+        android:id="@+id/imageButton1"
+        android:icon="@drawable/shoulder_icon"
+        android:layout_marginTop="155dp"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/shoulder_icon"
+        android:onClick="onButtonClick" />
+
+    <ImageButton
+        android:layout_width="228dp"
+        android:layout_height="188dp"
+        android:id="@+id/imageButton2"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/midlower"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click for Upper Neck/Shoulder Pain"
+        android:textStyle="bold"
+        android:textColor="#F00"
+        android:paddingTop="115dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click for Mid/Lower Back Pain"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:textColor="#00F"
+        android:layout_marginTop="78dp"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

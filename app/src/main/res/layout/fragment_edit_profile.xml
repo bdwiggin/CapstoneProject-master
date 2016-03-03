@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teaminfinity.tabnavigation.EditProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:background="#e0e0e0">
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Edit Threshold"
+            android:layout_marginTop="100dp"
+            android:id="@+id/editThreshold"
+            android:background="#444444"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Edit Profile"
+            android:id="@+id/editProfile"
+            android:onClick="onButtonClick"
+            android:background="#494949"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Customize Alerts"
+            android:id="@+id/customizeAlerts"
+            android:background="#4b4b4b"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Sign-out Profile"
+            android:id="@+id/signOutProfile"
+            android:background="#4c4c4c"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+</FrameLayout>
