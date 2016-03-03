@@ -23,15 +23,14 @@
     <EditText
         android:layout_width="320dp"
         android:layout_height="50dp"
-        android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/editTextLogin"
         android:layout_marginTop="200dp"
         android:layout_gravity="left|top"
         android:layout_marginLeft="30dp"
-        android:hint="Login"
+        android:hint="Username"
         android:textColorHint="#000"
-        android:textStyle="bold"
+
         android:layout_row="1"
         android:layout_column="0" />
 
@@ -50,13 +49,13 @@
         android:layout_width="119dp"
         android:layout_height="60dp"
         android:text="Login"
-        android:id="@+id/Loginbutton"
+        android:id="@+id/loginButton"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_marginBottom="130dp"
         android:background="#404040"
         android:textColor="#FFFF"
-        android:onClick="onButtonClick" />
+        android:onClick="loginButton" />
 
     <TextView
         android:layout_width="293dp"
