@@ -12,6 +12,8 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/editTextLoginPass"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-."
+
         android:layout_gravity="left|center_vertical"
         android:layout_marginLeft="30dp"
         android:hint="Password"
@@ -30,7 +32,7 @@
         android:layout_marginLeft="30dp"
         android:hint="Username"
         android:textColorHint="#000"
-
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-."
         android:layout_row="1"
         android:layout_column="0" />
 
